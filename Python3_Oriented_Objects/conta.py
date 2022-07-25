@@ -45,7 +45,7 @@ class Conta:
     def limite(self, limite): # o set irá mudar o valor
         self.__limite = limite
 
-    @staticmethod
+    @staticmethod # não precisa mais criar objetos, pois será fixo para a classe
     def codigo_banco():
         return '001'
 
